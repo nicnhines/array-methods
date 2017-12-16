@@ -55,11 +55,11 @@ var updatedOrders = orderQueue.concat({takeOut:"Pizza"},{takeOut:"Doughnuts"});
 
 //join()
 var sentence = scrambledWords.join(" ");
-var myfruits = fruitCollection.join(" "); //FIX ME!!!!!
+var myFruits = fruitCollection.join(" "); //FIX ME!!!!!
 
 //slice()
 var favoriteFriends = friends.slice(1,3);
-var owesMoney;								//FINISH ME!!!!!
+var owesMoney = friends.slice(3);								
 
 //toString()
 var monthNameString = monthNames.toString();
